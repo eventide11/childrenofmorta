@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+    font-family: 'I love Belle Delphine';
+    src: url(gameOfThrones.ttf);
+}
+body {
+    height: 100%;
+    cursor: url(lightsaber30x30.png), auto;
+    font-family: 'Maven Pro', sans-serif;
+    background: black;
+}
+main {
+    width: 90%;
+    height: 530px;
+    margin: 0 auto;
+}
+main div.wallpaper {
+    height: 100%;
+    position: relative;
+    background-image: url(childrenOfMorta_1152x648.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main div p.close:hover {
+    cursor: pointer;
+}
+main div.gma, main div.uncle, main div.dad, main div.mom, main div.sonYoungest, main div.daughterOldest, main div.daughterYoungest {
+    width: 2.5%;
+    height: 55px;
+    position: absolute;
+    background: rgba(255, 0, 43, 0);
+}
+main div.gma {
+    left: 61.5%;
+    top: 145px;
+}
+main div.uncle {
+    height: 72px;
+    left: 56.2%;
+    top: 22px;
+}
+main div.dad {
+    height: 70px;
+    left: 54.2%;
+    top: 120px;
+}
+main div.mom {
+    height: 60px;
+    left: 47%;
+    top: 88px;
+}
+main div.sonYoungest {
+    left: 41.5%;
+    top: 46px;
+}
+main div.daughterOldest {
+    width: 2.7%;
+    height: 60px;
+    left: 42%;
+    top: 125px;
+}
+main div.daughterYoungest {
+    left: 51.5%;
+    top: 70px;
+}
+main div.gma2, main div.uncle2, main div.dad2, main div.mom2, main div.sonYoungest2, main div.daughterOldest2, main div.daughterYoungest2 {
+    width: 20%;
+    color: aliceblue;
+    line-height: 25px;
+    position: absolute;
+    border: 5px solid #7a3d00;
+    background: black;
+}
+main div.description p.close {
+    width: 5%;
+    margin-left: 95%;
+}
+main div.gma2 {
+    left: 65.5%;
+    top: 145px;
+}
+main div.uncle2 {
+    left: 60%;
+    top: 22px;
+}
+main div.dad2 {
+    left: 58%;
+    top: 120px;
+}
+main div.mom2 {
+    left: 50.5%;
+    top: 88px;
+}
+main div.sonYoungest2 {
+    right: 60%;
+    top: 46px;
+}
+main div.daughterOldest2 {
+    right: 59%;
+    top: 125px;
+}
+main div.daughterYoungest2 {
+    left: 55%;
+    top: 70px;
+}
+footer p {
+    position: absolute;
+}
+footer p.title {
+    width: 13%;
+    color: #7a3d00;
+    font-family: I love Belle Delphine;
+    font-size: 2.5rem;
+    line-height: 60px;
+    left: 5%;
+    top: 290px;
+    background: black;
+}
+footer p.date {
+    width: 20%;
+    color: #b35900;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1rem;
+    left: 40%;
+    top: 510px;
+    text-align: center;
+}
+
+
+.invisible {
+	visibility: hidden;
+}
